@@ -76,6 +76,7 @@ export function ExpenseForm({ type = "individual", onSuccess }) {
   });
 
   // Watch for changes
+  // eslint-disable-next-line react-hooks/incompatible-library
   const amountValue = watch("amount");
   const paidByUserId = watch("paidByUserId");
 

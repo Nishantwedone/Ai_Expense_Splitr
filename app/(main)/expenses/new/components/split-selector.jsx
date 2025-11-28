@@ -64,6 +64,7 @@ export function SplitSelector({
       }));
     }
 
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setSplits(newSplits);
  
     // Calculate totals
